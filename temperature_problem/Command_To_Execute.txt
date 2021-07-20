@@ -1,0 +1,7 @@
+hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
+-input /user/root/Input_Temp.txt \
+-output /user/root/Temp_Problem \
+-mapper mapper.py \
+-reducer reducer.py \
+-file /Map_Reduce/mapper.py \
+-file /Map_Reduce/reducer.py

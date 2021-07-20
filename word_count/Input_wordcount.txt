@@ -1,0 +1,1 @@
+hadoop is a ecosystem which is used to handle big data hadoop is consits of 2 components hadoop is widely used in industries
